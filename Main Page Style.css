@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+
+  }
+ 
+
+  img {
+    max-width: 500%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1200px;
+  }
+
+  header {
+    background: #194569;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-button {
+    background-color: #194569;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+h1 {
+    margin: 40px;
+    font-size: 40px;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news-content {
+    width: 70%;
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+
+.click-me-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #194569;
+    color: #fff;
+}
+
+.click-me-box {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #194569;
+    text-decoration: none;
+}
+.click-me-box a:hover{
+  color: #007bff;
+}
+.click-me-box a{
+  text-decoration: none;
+  color: #194569;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer{
+    background-color: #194569;
+    color: #f4f4f4;
+
+
+
+}
+.dark-mode {
+    background-color: rgb(49, 49, 49);
+    color: white;
+  }
+
+  .dark-mode .news-item {
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 4px 8px rgb(29, 29, 29)
+    
+  }
+
+  .dark-mode .click-me-box{
+    background-color:  rgb(49, 49, 49);
+
+  }
+  
+  .news-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+
+
+.news-content {
+    flex-grow: 1;
+}
+
+
+.news-image {
+    max-width: 300px;
+    margin-right: 20px;
+    height: fit-content;
+}
+
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+  
+  color: blue;
+  text-decoration: underline;
+}
+
+fas fa-home{
+  color: #194569;
+}
+
+
