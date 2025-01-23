@@ -1,4 +1,4 @@
-# Multimedia-project
+# News website
 Website design for representing some general random news.
 
 This project is a HTML, CSS and JavaScript developed dynamic and responsive news website. The site has random news in the world in different categories like technology, sports, health and many more.
